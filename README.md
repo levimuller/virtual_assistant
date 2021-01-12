@@ -1,7 +1,7 @@
 # virtual_assistant
 A Fun Python Virtual Assistant
 
-The purpose of this project was to learn about some new libraries in Python, especially one that offers text to speech.
+The purpose of this project was to learn about some new libraries in Python, especially one that offers text-to-speech.
 
 This virtual assistant does the following:
 1. Use the Voice Engine to repeat a word, phrase, or series of phrases.
