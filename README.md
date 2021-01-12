@@ -4,7 +4,7 @@ A Fun Python Virtual Assistant
 The purpose of this project was to learn about some new libraries in Python, especially one that offers text to speech.
 
 This virtual assistant does the following:
-1. Use the Voice Engine to repeat an word, phrase, or series of phrases.
+1. Use the Voice Engine to repeat a word, phrase, or series of phrases.
 2. Tell us a programming joke.
 3. Read a summary of a chosen subject from Wikipedia.
 4. Tell us the weather in Orlando, FL (or any city we specify in the code).
