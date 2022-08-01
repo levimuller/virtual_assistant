@@ -24,7 +24,7 @@ def get_menu_item():
 	print("5: Tell a story")
 	print("6: Tell me about Darth Plagueis")
 	print("7: Which movie should I watch?")
-	print("8: ") #room for another option
+	print("8: What are the 3 Laws?") #room for another option
 	print("9: Exit \n")
 	menu_choice = int(input("How may I help you? "))
 	if menu_choice == 1:
@@ -42,7 +42,7 @@ def get_menu_item():
 	elif menu_choice == 7:
 		which_movie()
 	elif menu_choice == 8:
-		get_menu_item()
+		three_laws()
 	elif menu_choice == 9:
 		engine.say("Ok, Goodbye")
 		engine.runAndWait()
@@ -117,6 +117,12 @@ def which_movie():
 	i = random.randint(1, 250)
 	engine.say("You should watch the film ")
 	engine.say(search[i])
+	engine.runAndWait()
+	get_menu_item()
+
+#use the voice engine to tell us about the 3 Laws of Robotics
+def three_laws():
+	engine.say("The first law of robotics states, a robot may not injure a human being or, through inaction, allow a human being to come to harm. The second law states, a robot must obey the orders given it by human beings except where such orders would conflict with the First Law. The third law states, a robot must protect its own existence as long as such protection does not conflict with the First or Second Law.")
 	engine.runAndWait()
 	get_menu_item()
 
