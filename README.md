@@ -11,3 +11,4 @@ This virtual assistant does the following:
 5. Tell us a random funny story.
 6. Read us a story about Darth Plagueis the Wise from Star Wars.
 7. Suggest a random movie for us to watch from the IMDB Top 250
+8. Tell us about the 3 Laws of Robotics
